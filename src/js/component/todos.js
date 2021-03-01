@@ -21,10 +21,10 @@ export const Todos = props => {
 	};
 
 	return (
-		<div>
+		<div id="titulo" className="container mx-auto">
 			<div>
 				<h1>ToDos</h1>
-				<div>
+				<div id="caja" className="container border border-dark mx-auto">
 					<input
 						type="text"
 						id="myText"
