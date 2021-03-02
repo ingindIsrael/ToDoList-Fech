@@ -12,8 +12,51 @@
 
 */
 #titulo {
-    width: 300px;
+    width: 800px;
+}
+h1 {
+    font-family:  'Arial Narrow';
+    color: darkgray;
 }
 #caja {
-    width: 600px;
+    width: 500px;
+    color: grey;
+    
+    
+}
+input {
+     
+      text-indent: 25px;
+    font-size: larger;
+}
+::placeholder {
+color: grey;
+}
+input:focus {
+    outline: none;
+}
+#x {
+ 
+  opacity: 0;
+  float: right;
+  border: none;
+}
+#x:focus {
+    border: none;
+    box-shadow: none;
+}
+#tarea:hover #x  {
+    opacity: 1;
+ border: none;
+}
+#tarea span{
+    margin-left: 25px;
+    font-size: larger;
+}
+#nroitem {
+    color: gray;
+    font-size: xx-small;
+}
+#delete {
+    width: 300px;
 }
